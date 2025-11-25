@@ -8,4 +8,3 @@ for i in range(3):
     price = int(input('Введите цену продукта: '))
     quantity = int(input('Укажите количество продукта: '))
     receipt.add_row([i+1, product, f'{price} руб.', f'{quantity} шт.', f'{price*quantity} руб.'])
-print(receipt)
