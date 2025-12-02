@@ -4,6 +4,7 @@ import matplotlib.pyplot as diagram
 receipt = PrettyTable()
 receipt.field_names = ['№','Продукт','Цена','Количество','Стоимость']
 
+# Списки для данных диграммы
 products = []
 pay = []
 
@@ -16,5 +17,6 @@ for i in range(3):
     pay.append(price*quantity)
 
 print(receipt)
+# Сборка и вывод диаграммы
 diagram.bar(products, pay)
 diagram.show()
