@@ -18,5 +18,5 @@ for i in range(3):
 
 print(receipt)
 # Сборка и вывод диаграммы
-diagram.bar(products, pay)
+diagram.bar(products, pay, color='green')
 diagram.show()
