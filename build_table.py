@@ -19,4 +19,5 @@ for i in range(3):
 print(receipt)
 # Сборка и вывод диаграммы
 diagram.bar(products, pay)
+diagram.title("Соотношение продуктов")
 diagram.show()
